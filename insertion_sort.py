@@ -7,3 +7,7 @@ def insertion_sort_descending(arr):
             j -= 1
         arr[j + 1] = key
     return arr
+if __name__ == "__main__":
+    arr = [12, 4, 56, 1, 78, 33]
+    sorted_arr = insertion_sort_descending(arr)
+    print("Sorted list (descending):", sorted_arr)
